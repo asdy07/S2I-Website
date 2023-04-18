@@ -10,12 +10,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { IndustryComponent } from './industry/industry.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndustryComponent
+    IndustryComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
